@@ -30,6 +30,8 @@ Options:
   -n, --num [number]   
 
 ```bash
+npm install -g js-shuffle
+
 shuffle -t "text1|text2|text3|text4|text5|text6|text7" -n 2
 
 shuffle -f ./file.txt > output.txt
