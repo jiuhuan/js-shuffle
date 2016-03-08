@@ -1,0 +1,31 @@
+{
+  "name": "js-shuffle",
+  "version": "1.0.0",
+  "description": "array shuffle",
+  "keywords": [
+    "shuffle"
+  ],
+  "author": "九幻 <by11880@126.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiuhuan/js-shuffle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jiuhuan/js-shuffle/issues"
+  },
+  "homepage": "https://github.com/jiuhuan/js-shuffle#readme",
+  "main": "index.js",
+  "bin": {
+    "shuffle": "cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "lib"
+  ],
+  "dependencies": {
+    "yamljs": "^0.2.6",
+    "commander": "~2.9.0"
+  }
+}
